@@ -5,10 +5,10 @@ This project provides a simple example of ticket creation and retrieval using a 
 
 ## Code Files
 The code files for this project are located at:
-- [TicketController.java](.src/main/java/org/example/ticket/controller/TicketController.java)
-- [Ticket.java](.src/main/java/org/example/ticket/model/Ticket.java)
-- [TicketReposity.java](.src/main/java/org/example/ticket/repository/TicketRepository.java)
-- [TicketRestAPI.java](.src/main/java/org/example/ticket/restController/TicketRestAPI.java)
+- [TicketController.java](src/main/java/org/example/ticket/controller/TicketController.java)
+- [Ticket.java](src/main/java/org/example/ticket/model/Ticket.java)
+- [TicketReposity.java](src/main/java/org/example/ticket/repository/TicketRepository.java)
+- [TicketRestAPI.java](src/main/java/org/example/ticket/restController/TicketRestAPI.java)
 
 ## Using Postman to Create and Retrieve a Ticket
 
