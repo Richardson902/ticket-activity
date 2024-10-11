@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://wwww.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<table>
+    <thead>
+    <tr>
+        <th>Ticket</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="ticket : ${tickets}">
+        <td>Id</td>
+        <td th:text="${ticket.ticketId}"></td>
+    </tr>
+    <tr th:each="ticket : ${tickets}">
+        <td>First Name</td>
+        <td th:text="${ticket.firstName}"></td>
+    </tr>
+    <tr th:each="ticket : ${tickets}">
+        <td>Last Name</td>
+        <td th:text="${ticket.lastName}"></td>
+    </tr>
+    <tr th:each="ticket : ${tickets}">
+        <td>Date of Birth</td>
+        <td th:text="${ticket.dob}"></td>
+    </tr>
+    <tr th:each="ticket : ${tickets}">
+        <td>Flight Number</td>
+        <td th:text="${ticket.flightNumber}"></td>
+    </tr>
+    <tr th:each="ticket : ${tickets}">
+        <td>Departure Time</td>
+        <td th:text="${ticket.departureTime}"></td>
+    </tr>
+    <tr th:each="ticket : ${tickets}">
+        <td>Arrival Time</td>
+        <td th:text="${ticket.arrivalTime}"></td>
+    </tr>
+    <tr th:each="ticket : ${tickets}">
+        <td>Departure Airport</td>
+        <td th:text="${ticket.departureAirport}"></td>
+    </tr>
+    <tr th:each="ticket : ${tickets}">
+        <td>Arrival Airport</td>
+        <td th:text="${ticket.arrivalAirport}"></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
