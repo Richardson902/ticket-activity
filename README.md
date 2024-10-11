@@ -9,6 +9,8 @@ The code files for this project are located at:
 - [Ticket.java](src/main/java/org/example/ticket/model/Ticket.java)
 - [TicketReposity.java](src/main/java/org/example/ticket/repository/TicketRepository.java)
 - [TicketRestAPI.java](src/main/java/org/example/ticket/restController/TicketRestAPI.java)
+- [ticket.html](src/main/resources/templates/ticket.html)
+- [application.properties](src/main/resources/application.properties)
 
 ## Using Postman to Create and Retrieve a Ticket
 
