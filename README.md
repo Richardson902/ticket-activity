@@ -21,7 +21,6 @@ The code files for this project are located at:
 5. In the request body, enter your JSON data in the following format:
 ```json
 {
-    "ticketId": 1,
     "firstName": "Joe",
     "lastName": "Dirt",
     "dob": "January 1, 1999",
