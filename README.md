@@ -1,5 +1,3 @@
-# ticket-activity
-
 # Ticket Activity
 
 ## Overview
